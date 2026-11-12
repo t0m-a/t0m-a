@@ -1,114 +1,106 @@
-# THOMAS SIMON // SYSTEMS ARCHITECT · NOC ENGINEER · AI CONTEXT ENGINEER
+# Thomas Simon — Senior Systems Engineer | Edge AI & Zero-Trust Architect
 
-> **Infrastructure Built on First Principles. Systems Engineered for Human Sovereignty.**
+[![Website](https://img.shields.io/badge/Portfolio-tsimon.me-0A66C2?style=flat-square&logo=google-chrome&logoColor=white)](https://tsimon.me)
+[![Minka Lab](https://img.shields.io/badge/Initiative-minkalab.net-10B981?style=flat-square&logo=cloudflare&logoColor=white)](https://minkalab.net)
+[![Bolivia Remoto](https://img.shields.io/badge/Platform-boliviaremote.work-F59E0B?style=flat-square&logo=cloudflare-workers&logoColor=white)](https://boliviaremote.work)
+[![Semantic Brain](https://img.shields.io/badge/MCP_Core-brain.tsimon.me-8B5CF6?style=flat-square&logo=serverless&logoColor=white)](https://brain.tsimon.me)
+[![Languages](https://img.shields.io/badge/Languages-FR_%7C_EN_%7C_ES-374151?style=flat-square)](#)
 
-I design, stabilize, and document cloud infrastructure, virtualized networks, and human-aligned AI workflows. Combining 13+ years of production infrastructure operations across 100+ client environments with telecommunications engineering (CNAM France) and local Edge AI orchestration, I bridge the gap between complex machine topologies and the operators who rely on them.
-
-[![Portfolio](https://img.shields.io/badge/PORTFOLIO-tsimon.me-0A0A0A?style=flat-square&logo=cloudflare&logoColor=F38020)](https://tsimon.me)
-[![Minka Lab](https://img.shields.io/badge/PEDAGOGY-minkalab.net-0A0A0A?style=flat-square&logo=linux&logoColor=FCC624)](https://minkalab.net)
-[![Edge Node](https://img.shields.io/badge/EDGE_TELEMETRY-pi.tsimon.me-0A0A0A?style=flat-square&logo=raspberrypi&logoColor=A22846)](https://pi.tsimon.me)
-[![Sovereign Search](https://img.shields.io/badge/SEARCH_NODE-search.tsimon.me-0A0A0A?style=flat-square&logo=searxng&logoColor=2563EB)](https://search.tsimon.me)
-[![LinkedIn](https://img.shields.io/badge/LINKEDIN-tsimonfreelance-0A0A0A?style=flat-square&logo=linkedin&logoColor=0A66C2)](https://www.linkedin.com/in/tsimonfreelance/)
-
----
-
-### `[01 // OPERATOR_SPEC.yaml]`
+> **13+ years of enterprise IT, NOC operations, and cloud infrastructure engineering** evolved into sovereign **Edge AI**, **Cloudflare Zero-Trust architectures**, and **stateful Model Context Protocol (MCP) agentic systems**.
 
 ```yaml
 OPERATOR_SPEC:
-  identity: "Thomas Mathieu Simon"
-  credentials: "AS Telecom & Computer Networks (CNAM France)"
-  current_location: "La Paz, Bolivia [UTC-4]"
-  languages: ["French (Native)", "English (Fluent)", "Spanish (Working)"]
-  operational_posture: "Remote Synchronous (US EST/CST/PST · LATAM · EU Overlap)"
-  machine_layer:
-    - "Cloud & Hybrid Infrastructure (Azure, M365, BCDR)"
-    - "Enterprise Virtualization (VMware ESXi, Hyper-V)"
-    - "Deterministic IaC & Config Management (Terraform, Ansible, Linux)"
-    - "High-Signal NOC Observability & SNMP Telemetry (3,500+ Endpoints)"
-  operator_layer:
-    - "AI Context Engineering & Multi-Agent Pipelines (RLHF Rubrics)"
-    - "Local Edge Compute & RAG (Raspberry Pi 5, Ollama, Qdrant, Cloudflare Zero-Trust)"
-    - "Model Context Protocol (MCP) Server & Tooling Integration"
-    - "Civic Digital Sovereignty & Pedagogical Labs (Minka Lab)"
-  status: "ONLINE // AVAILABLE_FOR_SELECT_CONTRACTING"
+  identity: "Thomas Simon (t0m-a)"
+  role: "Senior Systems Engineer, NOC Specialist & Edge AI Architect"
+  base: "La Paz, Bolivia (UTC-4) | Global Remote"
+  languages:
+    french: "Native"
+    english: "Fluent (Executive / Technical)"
+    spanish: "Professional Working"
+  core_domains:
+    - "Cloudflare Edge Stack (Workers, Durable Objects, Vectorize, Zero-Trust Tunnels)"
+    - "Sovereign ARM64 Edge Compute (Raspberry Pi 5, Docker, Qdrant, Ollama / Gemma 4)"
+    - "Context Engineering & Agentic Workflows (MCP JSON-RPC, Hybrid RAG, RRF)"
+    - "Enterprise NOC & Multi-Tenant Infrastructure (40+ environments, 1,500+ endpoints)"
+  certifications:
+    - "Liongard Certified Partner"
+    - "Acronis Cloud Tech & Cloud Sales Certified Professional"
+    - "Microsoft Azure Administrator (AZ-104 Track)"
 ```
 
 ---
 
-### `[02 // AUTONOMOUS EDGE AI & ZERO-TRUST TOPOLOGY]`
+## Flagship Production Systems & Repositories
 
-Self-hosted, air-tight cognitive and telemetry node running on ARM64 hardware (`Raspberry Pi 5`), exposing zero inbound WAN ports via **Cloudflare Zero-Trust Tunnels (`cloudflared`)** while serving local LLM inference (**Ollama**), vector RAG (**Qdrant**), **Model Context Protocol (MCP)** tool endpoints, and sovereign search.
+### 1. [`gemini-brain`](https://github.com/t0m-a/gemini-brain) — Stateful Edge Cognitive Architecture (`brain.tsimon.me`)
+A persistent semantic memory engine and **Model Context Protocol (MCP)** server running on **Cloudflare Workers** and **Durable Objects (`BrainMemoryDO`)**.
+* **Hybrid Retrieval Engine:** Combines lexical **BM25**, semantic vector embeddings (**Cloudflare Vectorize & Workers AI**), and **SQLite Knowledge Graph** traversal fused via **Reciprocal Rank Fusion (RRF)**.
+* **Nocturnal Consolidation Pipeline:** Autonomous Durable Object alarms trigger daily at `07:00 UTC` to prune episodic logs, calculate entity centrality, and synthesize long-term architectural memory.
+* **Cross-Stack Context Bus:** Unifies state across local CLI tools, IDE coding agents, and Raspberry Pi 5 edge daemons via authenticated JSON-RPC 2.0 endpoints and immutable Architecture Decision Records (ADRs).
 
-```mermaid
-flowchart TB
-    subgraph WAN["UNTRUSTED WAN // REMOTE WORKSTATIONS"]
-        OP["Operator / Client Terminal<br/>(Desktop · CLI · IDE Agent)"]
-    end
+### 2. [`raspberry-pi-cloudflare-network-operations-monitor`](https://github.com/t0m-a/raspberry-pi-cloudflare-network-operations-monitor) — AI-Assisted Edge & LAN NOC Monitor
+A 24/7 Network Operations Center (NOC) observability and diagnostics suite running on **Raspberry Pi 5 (ARM64)** behind **Cloudflare Zero-Trust Tunnels**.
+* **Full-Spectrum Telemetry:** Continuously audits local system vitals (CPU, thermal headroom, disk I/O, Docker containers), **local LAN endpoints**, and upstream Cloudflare edge tunnel health.
+* **Gemma 4 Autonomous Diagnostics:** Pipes anomalous network and host telemetry into a local **Gemma 4** LLM instance to generate immediate root-cause assessments and remediation steps without cloud data leakage.
+* **Real-Time Telegram Alerting:** Dispatches structured incident summaries, latency spikes, and AI-generated diagnostic reports straight to operations channels via the **Telegram Bot API**.
 
-    subgraph CF["CLOUDFLARE GLOBAL EDGE // ZERO-TRUST PERIMETER"]
-        DNS["DNS & Anycast WAF<br/>(tsimon.me)"]
-        ZTA["Cloudflare Access (Zero-Trust)<br/>MFA · Identity & Service Tokens"]
-        TUN["Argo Tunnel Endpoint<br/>(Outbound-Only Encrypted QUIC)"]
-    end
+### 3. [`scout-analyst-pipelines-agents`](https://github.com/t0m-a/scout-analyst-pipelines-agents) — Agentic Opportunity Intelligence ([`boliviaremote.work`](https://boliviaremote.work))
+Multi-stage reconnaissance and evaluation pipeline transitioned from a local Python agent into a public web platform deployed on **Cloudflare Workers** (`boliviaremote.work` / `scout.tsimon.me`).
+* **Deterministic 100-Point Scoring Engine:** Evaluates remote engineering and consulting roles across technical stack alignment, compensation bands, trilingual requirements (EN/FR/ES), and LATAM/Bolivia residency eligibility.
+* **Automated Extraction Workflows:** Strips noise from unstructured job feeds and RFP boards into structured, high-signal operational briefs.
 
-    subgraph EDGE["LOCAL SOVEREIGN EDGE NODE // RASPBERRY PI 5 (ARM64 / LINUX)"]
-        direction TB
-        CFD["cloudflared Daemon<br/>(Zero Open Inbound Firewall Ports)"]
-        
-        subgraph SERVICES["CONTAINERIZED & SYSTEMD RUNTIME LAYER"]
-            MCP["MCP & Scout Agent Pipelines<br/>(Python Tooling & Context Router)"]
-            OLLAMA["Ollama Local LLM Runtime<br/>(Private Quantized Inference)"]
-            RAG["Edge Semantic Search & RAG<br/>(Qdrant Vector DB · search.tsimon.me)"]
-            PI_MON["NOC Edge Telemetry Monitor<br/>(pi.tsimon.me · SNMP / Syslog Probes)"]
-        end
+### 4. [`Edge-Semantic-Search-RAG-Knowledge-Hub`](https://github.com/t0m-a/Edge-Semantic-Search-RAG-Knowledge-Hub) — Sovereign IT Knowledge Base
+Zero-telemetry Retrieval-Augmented Generation (RAG) hub built for sensitive IT documentation, SOPs, and incident runbooks.
+* **On-Premise Vector Pipeline:** Orchestrates **Qdrant** vector storage, **FastEmbed** (ONNX runtime), and a **Streamlit** operator console inside ARM64 Docker containers on a Raspberry Pi 5.
+* **Zero-Trust Exposure:** Published globally through hardened `cloudflared` tunnels and Cloudflare Access policies with zero inbound firewall ports open.
 
-        STORAGE[("Encrypted Local NVMe<br/>& Air-Gapped Backup Sync")]
-    end
+### 5. [`MinkaLab`](https://github.com/t0m-a/MinkaLab) & [`Wiki`](https://github.com/t0m-a/Wiki) — Applied Advisory, Digital Hygiene & Runbooks
+* **[`MinkaLab`](https://minkalab.net):** Applied research and civic-tech initiative delivering trilingual (EN/FR/ES) cloud security audits, SMB digital hygiene frameworks, and edge telemetry patterns.
+* **[`Wiki`](https://github.com/t0m-a/Wiki):** Living library of enterprise system administration SOPs, network hardening checklists, and hybrid cloud architecture runbooks.
 
-    OP -->|"HTTPS / TLS 1.3"| DNS
-    DNS --> ZTA
-    ZTA -->|"Authenticated Policy"| TUN
-    TUN <==>|"Outbound Tunnel Only"| CFD
-    CFD --> MCP
-    CFD --> PI_MON
-    CFD --> RAG
-    MCP <-->|"Local IPC / REST"| OLLAMA
-    RAG <-->|"Embeddings / Retrieval"| OLLAMA
-    MCP --> STORAGE
-    RAG --> STORAGE
-    PI_MON --> STORAGE
+---
+
+## Reference Architecture: Hybrid Edge + Cloud Stack
+
+```text
+[ Global Clients / IDE Agents / Telegram ]
+                   │
+                   ▼
+     ╔═══════════════════════════╗
+     ║   Cloudflare Global Edge  ║
+     ╠═══════════════════════════╣
+     ║ • Zero-Trust Access / WAF ║
+     ║ • gemini-brain (Workers + ║
+     ║   Durable Objects SQLite) ║
+     ║ • boliviaremote.work      ║
+     ╚═════════════╦═════════════╝
+                   │  cloudflared (Outbound-Only Zero-Trust Tunnel)
+                   ▼
+     ╔═══════════════════════════╗
+     ║  Raspberry Pi 5 Edge Node ║
+     ╠═══════════════════════════╣
+     ║ • Edge + LAN NOC Monitor  ║───► [ Local LAN Endpoints & Router ]
+     ║ • Gemma 4 AI Diagnostics  ║───► [ Telegram Bot API Alerts ]
+     ║ • Qdrant + FastEmbed RAG  ║
+     ╚═══════════════════════════╝
 ```
 
 ---
 
-### `[03 // CORE ARCHITECTURE & OPERATIONAL MATRIX]`
+## Technical Stack & Operational Matrix
 
-| Domain | Operational Scope & Production Outcomes | Primary Stack |
-| :--- | :--- | :--- |
-| **01 / Enterprise NOC & Fleet Observability** | Managed **100+ client tenants** and **3,500+ endpoints**. Tuned SNMP/Syslog baselines and codified deterministic runbooks to achieve a **40% reduction in MTTR** and **99.9%+ SLA** stability. | `Azure` `VMware ESXi` `Hyper-V` `SNMP` `PowerShell` `RMM` `BCDR` |
-| **02 / Edge Compute, Local RAG & AI Agents** | Engineered private local inference nodes, vector RAG hubs, and **multi-agent reconnaissance pipelines** eliminating third-party telemetry leakage and recurring cloud API overhead. | `Raspberry Pi 5` `Ollama` `Qdrant` `MCP` `Python` `Cloudflare Tunnels` |
-| **03 / Security, Hygiene & Zero-Trust** | Pragmatic endpoint hardening, Zero-Trust perimeter segmentation, automated DNS/HTTP security auditing, and air-gapped BCDR pipelines. | `Zero-Trust` `WireGuard` `iptables` `GPG/PGP` `Ansible` `Terraform` |
-| **04 / Civic Pedagogy & Sovereignty** | Founder of **[Minka Lab](https://minkalab.net)** in La Paz, Bolivia—delivering trilingual (EN/FR/ES) Linux, encryption, and AI literacy curricula for high-agency operators. | `Linux` `Open-Source Tooling` `Trilingual Docs` `Digital Hygiene` |
-
----
-
-### `[04 // DEPLOYED SYSTEMS & REPOSITORY INDEX]`
-
-#### `// 04.1 FLAGSHIP EDGE, ZERO-TRUST & AI REPOSITORIES`
-* **[`raspberry-pi-cloudflare-network-operations-monitor`](https://github.com/t0m-a/raspberry-pi-cloudflare-network-operations-monitor)** — Autonomous ARM64 NOC telemetry and network operations monitor powering [`pi.tsimon.me`](https://pi.tsimon.me). Engineered for Raspberry Pi 5 with systemd service hardening and outbound-only Cloudflare Zero-Trust Tunnels (zero open inbound firewall ports).
-* **[`Edge-Semantic-Search-RAG-Knowledge-Hub`](https://github.com/t0m-a/Edge-Semantic-Search-RAG-Knowledge-Hub)** — Sovereign, zero-telemetry semantic search and Retrieval-Augmented Generation (RAG) knowledge base backing [`search.tsimon.me`](https://search.tsimon.me). Combines local quantized embeddings, **Qdrant** vector storage, and **Ollama** inference on edge hardware.
-* **[`scout-analyst-pipelines-agents`](https://github.com/t0m-a/scout-analyst-pipelines-agents)** — Multi-stage agentic reconnaissance, data extraction, and structured analytical synthesis pipelines in Python. Designed for deterministic context routing, automated triage, and high-signal reporting.
-
-#### `// 04.2 CIVIC PEDAGOGY, OPERATOR RUNBOOKS & LEGACY ARCHIVE`
-* **[`MinkaLab` (`minkalab.net`)](https://github.com/t0m-a/MinkaLab)** — Open-source educational platform and digital sovereignty curriculum engineered for Latin American learners.
-* **[`Wiki` (Operator Runbooks & Hardening Matrices)](https://github.com/t0m-a/Wiki)** — Field-tested Linux server administration, `iptables` firewall architectures, Docker containerization, and system hardening notes.
-* **Legacy Infrastructure Archive (2018–2019)** — Foundational configuration management and container builds retained for historical continuity, including [`Ansible`](https://github.com/t0m-a/Ansible) multi-tier playbooks, hardened [`nginx-vhosts`](https://github.com/t0m-a/nginx-vhosts) SSL/HSTS reverse-proxy templates, and [`docker-image-builds`](https://github.com/t0m-a/docker-image-builds) (**10,000+ pulls** on Docker Hub).
+| Domain | Technologies & Tooling |
+|---|---|
+| **Edge & Cloud Infrastructure** | Cloudflare Workers, Durable Objects, Vectorize, Zero-Trust Tunnels (`cloudflared`), DNS/WAF, Microsoft Azure (AZ-104), Linux (Debian/Ubuntu/HP-UX), Windows Server, VMware |
+| **AI & Context Engineering** | Model Context Protocol (MCP), Gemma 4, Ollama, Cloudflare Workers AI, Qdrant Vector DB, FastEmbed (ONNX), Hybrid RAG (BM25 + Vector + Graph RRF) |
+| **Languages & Automation** | Python 3, SQL (SQLite / Oracle), PowerShell, Bash, JavaScript / TypeScript (Workers), JSON-RPC 2.0, REST APIs |
+| **Observability & SecOps** | Custom Python NOC Daemons, Telegram Bot Telemetry, Liongard, Acronis Cloud, Fortinet / Cisco Firewalls, Active Directory, Global SSO |
 
 ---
 
-### `[05 // DIRECT INGESTION PATHWAYS]`
+## Connect & Collaborate
 
-* **Technical Portfolio & Dossiers:** [https://tsimon.me](https://tsimon.me) *(Senior NOC Engineer & AI/Cloud Architect PDFs available on-site)*
-* **Direct Electronic Mail:** [contact@tsimon.me](mailto:contact@tsimon.me) // [hello@tsimon.me](mailto:hello@tsimon.me)
-* **PGP Public Key (`0xA1048A81B9AEA757`):** `BDFC AB33 0606 4875 55F0 C3C6 A104 8A81 B9AE A757`
+* **Portfolio & Advisory:** [tsimon.me](https://tsimon.me)
+* **Minka Lab Initiative:** [minkalab.net](https://minkalab.net)
+* **Bolivia Remoto Platform:** [boliviaremote.work](https://boliviaremote.work)
+* **GitHub:** [github.com/t0m-a](https://github.com/t0m-a)
