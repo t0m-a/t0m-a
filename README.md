@@ -28,8 +28,6 @@ OPERATOR_SPEC:
     - "Microsoft Azure Administrator (AZ-104 Track)"
 ```
 
----
-
 ## Flagship Production Systems & Repositories
 
 ### 1. [`gemini-brain`](https://github.com/t0m-a/gemini-brain) — Stateful Edge Cognitive Architecture (`brain.tsimon.me`)
@@ -49,41 +47,8 @@ Multi-stage reconnaissance and evaluation pipeline transitioned from a local Pyt
 * **Deterministic 100-Point Scoring Engine:** Evaluates remote engineering and consulting roles across technical stack alignment, compensation bands, trilingual requirements (EN/FR/ES), and LATAM/Bolivia residency eligibility.
 * **Automated Extraction Workflows:** Strips noise from unstructured job feeds and RFP boards into structured, high-signal operational briefs.
 
-### 4. [`Edge-Semantic-Search-RAG-Knowledge-Hub`](https://github.com/t0m-a/Edge-Semantic-Search-RAG-Knowledge-Hub) — Sovereign IT Knowledge Base
-Zero-telemetry Retrieval-Augmented Generation (RAG) hub built for sensitive IT documentation, SOPs, and incident runbooks.
-* **On-Premise Vector Pipeline:** Orchestrates **Qdrant** vector storage, **FastEmbed** (ONNX runtime), and a **Streamlit** operator console inside ARM64 Docker containers on a Raspberry Pi 5.
-* **Zero-Trust Exposure:** Published globally through hardened `cloudflared` tunnels and Cloudflare Access policies with zero inbound firewall ports open.
-
-### 5. [`MinkaLab`](https://github.com/t0m-a/MinkaLab) & [`Wiki`](https://github.com/t0m-a/Wiki) — Applied Advisory, Digital Hygiene & Runbooks
-* **[`MinkaLab`](https://minkalab.net):** Applied research and civic-tech initiative delivering trilingual (EN/FR/ES) cloud security audits, SMB digital hygiene frameworks, and edge telemetry patterns.
-* **[`Wiki`](https://github.com/t0m-a/Wiki):** Living library of enterprise system administration SOPs, network hardening checklists, and hybrid cloud architecture runbooks.
-
----
-
-## Reference Architecture: Hybrid Edge + Cloud Stack
-
-```text
-[ Global Clients / IDE Agents / Telegram ]
-                   │
-                   ▼
-     ╔═══════════════════════════╗
-     ║   Cloudflare Global Edge  ║
-     ╠═══════════════════════════╣
-     ║ • Zero-Trust Access / WAF ║
-     ║ • gemini-brain (Workers + ║
-     ║   Durable Objects SQLite) ║
-     ║ • boliviaremote.work      ║
-     ╚═════════════╦═════════════╝
-                   │  cloudflared (Outbound-Only Zero-Trust Tunnel)
-                   ▼
-     ╔═══════════════════════════╗
-     ║  Raspberry Pi 5 Edge Node ║
-     ╠═══════════════════════════╣
-     ║ • Edge + LAN NOC Monitor  ║───► [ Local LAN Endpoints & Router ]
-     ║ • Gemma 4 AI Diagnostics  ║───► [ Telegram Bot API Alerts ]
-     ║ • Qdrant + FastEmbed RAG  ║
-     ╚═══════════════════════════╝
-```
+### 5. [`MinkaLab`](https://github.com/t0m-a/MinkaLab) — Applied Advisory, Digital Hygiene & Runbooks
+* **[`MinkaLab`](https://minkalab.net):** Applied research and civic-tech initiative delivering workshops in digital hygiene and personal security (ES), digital citizenship trainings and courses in applied English and Artificial Intelligence. Framework at the root of boliviaremote.work creation.
 
 ---
 
@@ -103,4 +68,3 @@ Zero-telemetry Retrieval-Augmented Generation (RAG) hub built for sensitive IT d
 * **Portfolio & Advisory:** [tsimon.me](https://tsimon.me)
 * **Minka Lab Initiative:** [minkalab.net](https://minkalab.net)
 * **Bolivia Remoto Platform:** [boliviaremote.work](https://boliviaremote.work)
-* **GitHub:** [github.com/t0m-a](https://github.com/t0m-a)
