@@ -42,13 +42,13 @@ A 24/7 Network Operations Center (NOC) observability and diagnostics suite runni
 * **Gemma 4 Autonomous Diagnostics:** Pipes anomalous network and host telemetry into a local **Gemma 4** LLM instance to generate immediate root-cause assessments and remediation steps without cloud data leakage.
 * **Real-Time Telegram Alerting:** Dispatches structured incident summaries, latency spikes, and AI-generated diagnostic reports straight to operations channels via the **Telegram Bot API**.
 
-### 3. [`scout-analyst-pipelines-agents`](https://github.com/t0m-a/scout-analyst-pipelines-agents) — Agentic Opportunity Intelligence ([`boliviaremote.work`](https://boliviaremote.work))
+### 3. [`boliviaremote.work AI powered remote work platform`](https://github.com/t0m-a/boliviaremote-work-website) — Agentic Opportunity Intelligence ([`boliviaremote.work`](https://boliviaremote.work))
 Multi-stage reconnaissance and evaluation pipeline transitioned from a local Python agent into a public web platform deployed on **Cloudflare Workers** (`boliviaremote.work` / `scout.tsimon.me`).
 * **Deterministic 100-Point Scoring Engine:** Evaluates remote engineering and consulting roles across technical stack alignment, compensation bands, trilingual requirements (EN/FR/ES), and LATAM/Bolivia residency eligibility.
 * **Automated Extraction Workflows:** Strips noise from unstructured job feeds and RFP boards into structured, high-signal operational briefs.
 
 ### 5. [`MinkaLab`](https://github.com/t0m-a/MinkaLab) — Applied Security Advisory, Digital Hygiene & AI Trainings
-* **[`MinkaLab`](https://minkalab.net):** Applied research and civic-tech initiative delivering workshops in digital hygiene and personal security (ES), digital citizenship trainings and courses in applied English and Artificial Intelligence. Framework at the root of boliviaremote.work creation.
+* Applied research and civic-tech initiative delivering workshops in digital hygiene and personal security (ES), digital citizenship trainings and courses in applied English and Artificial Intelligence. Framework at the root of boliviaremote.work creation.
 
 ---
 
