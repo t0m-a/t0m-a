@@ -47,7 +47,7 @@ Multi-stage reconnaissance and evaluation pipeline transitioned from a local Pyt
 * **Deterministic 100-Point Scoring Engine:** Evaluates remote engineering and consulting roles across technical stack alignment, compensation bands, trilingual requirements (EN/FR/ES), and LATAM/Bolivia residency eligibility.
 * **Automated Extraction Workflows:** Strips noise from unstructured job feeds and RFP boards into structured, high-signal operational briefs.
 
-### 5. [`MinkaLab`](https://github.com/t0m-a/MinkaLab) — Applied Advisory, Digital Hygiene & Runbooks
+### 5. [`MinkaLab`](https://github.com/t0m-a/MinkaLab) — Applied Security Advisory, Digital Hygiene & AI Trainings
 * **[`MinkaLab`](https://minkalab.net):** Applied research and civic-tech initiative delivering workshops in digital hygiene and personal security (ES), digital citizenship trainings and courses in applied English and Artificial Intelligence. Framework at the root of boliviaremote.work creation.
 
 ---
